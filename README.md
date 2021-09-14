@@ -1,5 +1,3 @@
 # fastapi-be
 # test merge
 # test merge 2
-# test squash merge
-# test squash merge 2
