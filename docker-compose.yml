@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  web:
+    container_name: fastapi-be-web
+    build:
+      dockerfile: Dockerfile
+      context: .
+    ports:
+      - "80:8000"
+    volumes:
+      - ./:/code/
+    networks:
+      - backend
+
+networks:
+  backend:
